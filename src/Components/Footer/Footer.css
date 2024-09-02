@@ -1,0 +1,84 @@
+.footer{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.footer-logo{
+    display: flex;
+    align-items: center;
+    gap:20px;
+   
+}
+.footer-logo p{
+    color:#383838;
+    font-size: 46px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+.footer-links{
+    display:flex;
+    list-style: none;
+    gap: 50px;
+    text-transform: capitalize;
+    color:#252525;
+    font-size: 20px;
+    font-family: sans-serif;
+    /* margin-left: 35px; */
+
+}
+.footer-links button {
+    color: #fff;
+    background: none;
+    border: none; /* Removes the border */
+    cursor: pointer;
+    font-size: 1.2em; /* Increase the font size */
+    transition: color 0.3s;
+    padding: 10px; /* Optional: add padding for better click area */
+    outline: none; /* Removes the outline when button is focused */
+    color:black;
+    text-transform:capitalize ;
+   
+  }
+  
+  .footer-links button:hover {
+    color: crimson; 
+  }
+  
+.footer-links li{
+    cursor: pointer;
+}
+.footer-social-icon{
+    display: flex;
+    gap:20px;
+    /* margin-left: 65px; */
+}
+.footer-icons-container{
+    padding: 10px;
+    padding-bottom: 6px;
+    background: #fbfbfb;
+    border:1px solid #ebebeb;
+    
+}
+.footer-copyright{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    width:100%;
+    margin-bottom: 30px;
+    color:#1a1a1a;
+    font-size: 16px;
+    font-family: sans-serif;
+    /* margin-left: 70px; */
+}
+.footer-copyright hr{
+    width:80%;
+    border:none;
+    border-radius: 10px;
+    height: 3px;
+    background: #c7c7c7;
+    
+}

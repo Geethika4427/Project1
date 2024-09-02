@@ -1,0 +1,55 @@
+.new-collections{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+    font-family: sans-serif;
+    margin-bottom: 100px;
+}
+.new-collections h1{
+    color: #171717;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: sans-serif;
+    margin-top: 50px;
+    text-transform: uppercase;
+}
+.new-collections hr{
+    width:200px;
+    height: 6px;
+    background: #b6b3b3;
+    border-radius: 10px;
+
+}
+/* .collections{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 50px;
+    gap:30px;
+    max-width: 1200px;
+    width:100%;
+} */
+
+.collections-container {
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    overflow: hidden; /* Prevents horizontal scrolling */
+}
+
+.collections {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Creates 4 columns */
+    gap:30px;
+    max-width: 1200px; /* Adjust based on the size you want for the container */
+    width:100%; /* Ensures there are spaces on both sides */
+    padding: 0 50px;
+    box-sizing: border-box; /* Include padding in the element's total width */
+}
+
+.item {
+    max-width: 250px; /* Adjust based on the size you want for each item */
+}
+
