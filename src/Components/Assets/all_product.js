@@ -41,8 +41,8 @@ let all_product = [
     name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
     category: "women",
     image: p1_img,
-    new_price: 3000.0,
-    old_price: 1499.0,
+    new_price: 1499.0,
+    old_price: 3000.0,
   },
   {
     id: 24,
